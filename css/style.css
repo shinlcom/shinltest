@@ -1,0 +1,42 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html,body{
+	height: 100%;
+}
+#container,.sections,.section{
+	height: 100%;
+	overflow: hidden;	/*去掉滚动条*/
+}
+#container{
+	width: 400%;
+}
+.left{
+	float: left;
+	width: 25%;
+}
+#section0,#section1,#section2,#section3{
+	background-color: #000;
+	background-size: cover;
+	background-position: 50% 50%;
+	text-align: center;
+	color: #fff;
+}
+#section0{
+	background-image: url(../images/1.jpg);
+}
+#section1{
+	background-image: url(../images/2.jpg);
+}
+#section2{
+	background-image: url(../images/3.jpg);
+}
+#section3{
+	background-image: url(../images/4.jpg);
+}
+
+
+
+
+
